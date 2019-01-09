@@ -56,7 +56,7 @@ client.on('message', message => {
 client.on('ready', () => {
     console.log("Bot is Ready")
 
-    client.user.setActivity('#ProsSystem',{type: "PLAYING"})
+    client.user.setActivity('$bc |ProsSystem',{type: "streaming"})
 
 });
 
