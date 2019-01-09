@@ -53,7 +53,12 @@ client.on('message', message => {
             return;
         }
     });
+client.on('ready', () => {
+    console.log("Bot is Ready")
 
+    client.user.setActivity('help',{type: "PLAYING"})
+
+});
 
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
