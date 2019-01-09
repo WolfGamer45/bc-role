@@ -47,3 +47,4 @@ client.on('message' , message => {
 client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","ⓟ『 The_Pros』"));
     });
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
